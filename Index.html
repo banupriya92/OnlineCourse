@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Course Platform</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto flex justify-between items-center px-6 py-4">
+
+            <h1 class="text-3xl font-bold text-blue-600">
+                EduLearn
+            </h1>
+
+            <nav>
+                <ul class="flex space-x-8 font-medium">
+                    <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+                    <li><a href="about.html" class="hover:text-blue-600">About</a></li>
+                    <li><a href="courses.html" class="hover:text-blue-600">Courses</a></li>
+                    <li><a href="contact.html" class="hover:text-blue-600">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="#"
+               class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700">
+               Login
+            </a>
+
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+
+        <div class="container mx-auto px-6">
+
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+
+                <div>
+                    <h2 class="text-5xl font-bold leading-tight mb-6">
+                        Learn Skills for Your Future
+                    </h2>
+
+                    <p class="text-lg mb-8">
+                        Join thousands of learners and explore high-quality online
+                        courses taught by industry experts.
+                    </p>
+
+                    <a href="courses.html"
+                       class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-200">
+                        Explore Courses
+                    </a>
+                </div>
+
+                <div>
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+                        class="rounded-xl shadow-xl"
+                        alt="Students Learning">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section class="py-20 bg-white">
+
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-12">
+                Why Choose EduLearn?
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="bg-gray-100 p-8 rounded-xl shadow">
+                    <h3 class="text-2xl font-bold mb-4">
+                        Expert Teachers
+                    </h3>
+                    <p>
+                        Learn from experienced professionals with real-world knowledge.
+                    </p>
+                </div>
+
+                <div class="bg-gray-100 p-8 rounded-xl shadow">
+                    <h3 class="text-2xl font-bold mb-4">
+                        Flexible Learning
+                    </h3>
+                    <p>
+                        Study anytime and anywhere with lifetime course access.
+                    </p>
+                </div>
+
+                <div class="bg-gray-100 p-8 rounded-xl shadow">
+                    <h3 class="text-2xl font-bold mb-4">
+                        Certificates
+                    </h3>
+                    <p>
+                        Earn certificates after completing each course successfully.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular Courses -->
+    <section class="py-20 bg-gray-100">
+
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-12">
+                Popular Courses
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+                        class="h-56 w-full object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Full Stack Development
+                        </h3>
+
+                        <p class="text-gray-600 mb-5">
+                            Learn HTML, CSS, JavaScript, React, Node.js and MongoDB.
+                        </p>
+
+                        <button
+                            class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+                            Enroll Now
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+                        class="h-56 w-full object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            UI/UX Design
+                        </h3>
+
+                        <p class="text-gray-600 mb-5">
+                            Master Figma, wireframing, prototyping and design systems.
+                        </p>
+
+                        <button
+                            class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+                            Enroll Now
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                        class="h-56 w-full object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">
+                            Data Science
+                        </h3>
+
+                        <p class="text-gray-600 mb-5">
+                            Learn Python, Machine Learning, AI and Data Analytics.
+                        </p>
+
+                        <button
+                            class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+                            Enroll Now
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 bg-blue-600 text-white">
+
+        <div class="container mx-auto text-center">
+
+            <h2 class="text-4xl font-bold mb-6">
+                Start Learning Today
+            </h2>
+
+            <p class="text-lg mb-8">
+                Join thousands of students and unlock your potential.
+            </p>
+
+            <a href="courses.html"
+               class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-200">
+               Browse Courses
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+
+        <div class="container mx-auto text-center">
+
+            <h2 class="text-2xl font-bold">
+                EduLearn
+            </h2>
+
+            <p class="mt-3 text-gray-400">
+                © 2026 EduLearn. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
